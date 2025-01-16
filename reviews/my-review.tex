@@ -1,0 +1,43 @@
+%%%%%%%%%%%%%%
+%% METADATA %%
+%%%%%%%%%%%%%%
+
+\contributor{
+% your name(s)
+Firstname Lastname
+}
+
+\contribution{
+% complete information on the reviewed work
+Reviewed Author, \emph{Reviewed Title}
+}
+
+\begin{review}
+\renewcommand*{\pagemark}{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% DESCRIPTION OF THE REVIEWED BOOK %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{reviewed}
+Review of \thecontribution. {[}Place{]}: {[}Publisher{]}, {[}Year{]}. {[}pages{]} pp. ISBN {[}number{]}. {[}Price{]}.
+\end{reviewed}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% YOUR REVIEW STARTS HERE %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% remove asterisk (*) if you want to number your sections
+% add a title for your section in between the {curly brackets} if you need one
+\section*{} 
+Your Review \citep{key}.
+
+
+\begin{flushleft}
+    % use smallcaps for author names
+    \renewcommand*{\mkbibnamefamily}[1]{\textsc{#1}}
+    \renewcommand*{\mkbibnamegiven}[1]{\textsc{#1}} 
+\printbibliography
+\end{flushleft}
+
+\end{review}

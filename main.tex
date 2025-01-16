@@ -1,0 +1,89 @@
+\documentclass[
+]{scrbook}   
+
+\usepackage{variantex}
+\usepackage{multicol}
+\usepackage{scalefnt}
+\usepackage{tikz}
+
+% define issue details
+\newcommand\thejournal{Variants}
+\newcommand\thejournalsubtitle{The Journal of the European Society for Textual Scholarship}
+\newcommand\thevolume{17--18}
+\newcommand\theseason{Winter}
+\newcommand\thevolumetitle{Histories of the Holograph}
+\newcommand\theyear{2024}
+\newcommand\theissue{\thejournal \ \thevolume \ (\theyear)} 
+\newcommand\generaleditor{Wout Dillen}
+\newcommand\associateeditor{Elli Bleeker}
+\newcommand\revieweditor{Stefano Rosignoli}
+\newcommand\assistanteditor{Manon Beentjes}
+\sloppy
+\newcommand\thewebsite{https://journals.openedition.org/variants/}
+
+% include bibliographies for BibLaTeX
+\addbibresource{references/defenu.bib}
+\addbibresource{references/escobar.bib}
+\addbibresource{references/italia.bib}
+\addbibresource{references/lorente.bib}
+%\addbibresource{references/my-bibliography.bib}
+\addbibresource{references/myojo.bib}
+\addbibresource{references/navratil.bib}
+\addbibresource{references/rocha.bib}
+\addbibresource{references/subacius.bib}
+\addbibresource{references/vanhulle.bib}
+\addbibresource{references/wiens.bib}
+\addbibresource{references/wix.bib}
+\addbibresource{references/robinson.bib}
+\addbibresource{references/carver.bib}
+\addbibresource{references/deicke.bib}
+\addbibresource{references/maitra.bib}
+\addbibresource{references/rabate.bib}
+
+\begin{document}
+\sloppy                         % preferences more space between words over overrunning margins
+\lefthyphenmin=3                % suppresses hyphenation after only 1 or 2 characters
+%NB: You will need to repeat \lefthyphenmin in the text if you use \selectlanguage
+\include{front/cover}
+\include{front/editorialboard}
+\include{front/titlepage}
+\include{front/colofon}
+\pagenumbering{roman}           
+\tableofcontents  
+\thispagestyle{empty}
+
+\include{essays/preface}
+\include{essays/introduction}
+\cleardoublepage
+
+\pagenumbering{arabic}
+\part{Essays}
+\include{essays/defenu}
+\include{essays/italia}
+\include{essays/navratil}
+\include{essays/rocha}
+\include{essays/subacius}
+\include{essays/wix}
+
+\part{Holograph Descriptions}
+\include{essays/escobar}
+\include{essays/lorente}
+
+\part{Work in Progress}
+\include{essays/myojo}
+\include{essays/wiens}
+
+\part{Review Essays}
+\include{reviews/robinson}
+
+\part{Reviews}
+%REVIEWS
+\include{reviews/carver}
+\include{reviews/deicke}
+\include{reviews/maitra}
+\include{reviews/rabate}
+
+\appendix
+\include{back/authors}
+\include{back/peerreviewers}
+\end{document}

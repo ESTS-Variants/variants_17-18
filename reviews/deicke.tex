@@ -1,0 +1,212 @@
+%%%%%%%%%%%%%%
+%% METADATA %%
+%%%%%%%%%%%%%%
+
+\contributor{
+% your name(s)
+Aline Deicke}
+
+\contribution{Elena Spadini, Francesca Tomasi and Georg Vogeler, eds. \emph{Graph Data-Models and Semantic Web Technologies in Scholarly Digital Editing}}
+
+
+\begin{review}
+\renewcommand*{\pagemark}{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% DESCRIPTION OF THE REVIEWED BOOK %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{reviewed}
+Review of \thecontribution. (Band 15 of \textit{Schriften des Instituts für Dokumentologie und Editorik}). Norderstedt: Books on Demand, 2021, <\href{https://kups.ub.uni-koeln.de/54577}{https://kups.ub.uni-koeln.de/54577}>. [Accessed 30 June 2023]. VI–214 pp. ISBN: 978–3–7543–4369–2.
+\end{reviewed}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% YOUR REVIEW STARTS HERE %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% remove asterisk (*) if you want to number your sections
+% add a title for your section in between the {curly brackets} if you need one
+\section*{} 
+As early as 2001, Tim Berners-Lee, together with James Hendler and Ora
+Lassila, formulated their idea of a semantic web as an ``extension of the
+current {[}internet{]}, in which information is given well-defined
+meaning, better enabling computers and people to work in cooperation'' \parencite{berners-lee_semantic_2001}. In their vision, concepts from a variety of
+what they termed ``subcultures'' would be linked, enabling relations
+between entities which are not only machine \emph{readable}, but
+\emph{understandable} and \emph{interpretable}. This prospect of a ``web
+of knowledge'' that facilitates and encourages new and innovative ways
+of computational analysis appeals particularly to Digital Humanists. Be
+it graph databases and the corresponding data models, the Linked Open
+Data Cloud of the semantic web, or network analysis as a specific subset
+of graph theory, the idea of putting connections --- between texts,
+between actors, between objects and concepts --- at the core of
+investigation becomes more and more influential in an environment where,
+increasingly, ``{[}collective life{]} is mediated by network
+technologies'' and logic \parencite[513]{venturini_actor-network_2019}.
+
+As such, graphs have also reached the field of scholarly digital
+editions as one of the main research disciplines of the Digital
+Humanities, which has been shaping the field for decades. Traditionally,
+one crucial influence on this field have been the guidelines developed
+by the Text Encoding Initiative (TEI) since its foundation in 1987 \parencite{tei_consortium_tei_2007}. Though the
+TEI aims to develop ``hardware- and software-independent methods for
+encoding humanities data'' \parencite{tei_consortium_history_2023}, for most of the Digital Humanities
+community, its standard has become synonymous with XML and the so-called
+\mbox{``X-technologies''} (XSLT, XPath and eXist). While the advantages of
+such an established, widely used and continuously developed standard to
+the community of digital scholarly editors can hardly be overstated, the
+expansion of digital ecosystems and infrastructures as well as interests
+in sharing and interlinking data, in extracting semantic relationships
+from texts, or in modelling hierarchies, events and processes beyond the
+document-centric representations XML encourages have led to the
+exploration of new research directions in representing \mbox{textual
+information.}
+
+It is in this tension at the intersection of TEI/XML, stand-off
+properties and graph technologies that the collection \emph{Graph
+Data-Models and Semantic Web Technologies in Scholarly Digital Editing}
+is situated. According to the editors, it aims to explore ``possible
+interactions between digital texts, the graph data-model, scholarly
+editions, and the semantic web'' (1). As such, for the first time, it
+provides a comprehensive overview over the state of graph-based
+approaches in scholarly digital editing. Emerging from a workshop at the
+University of Lausanne in June 2019, it includes ten contributions by
+twenty-five authors on a variety of topics, technologies, and
+disciplines connected to the wider field of editorial work in the
+digital domain, mostly focusing on one of two avenues: text modelled as
+a graph, or the representation of textual information through semantic
+web technologies; and the extension and enriching of the TEI/XML
+standard through the integration of Linked Open Data and RDF.
+
+For context, it has to be noted that the editors --- Elena Spadini,
+Francesca Tomasi and Georg Vogeler --- have to be seen as uniquely
+qualified to head up such an effort due to their extensive contributions
+to the field which are too numerous to list in this limited space. In
+addition, the book has been released in the publication series of the
+Institute for Documentology and Scholarly Editing (\citeyear{institute_of_documentary_and_scholarly_editing_schriftenreihe_2023}), which has significantly advanced
+scholarly editorial research in Germany and beyond for decades.
+
+The collection begins with a concise introductory chapter outlining the
+status quo of digital scholarly editing, the gaps and challenges to the
+field, and the resulting desiderata addressed here. The editors also
+give insights into their own research and motivations, followed by the
+usual description of the selected contributions.
+
+Subsequently, the collection is structured into three sections focusing
+on ``Infrastructures and Technologies'', ``Formal Models'', and
+``Projects and Editions'', though naturally, several chapters could have
+appeared in either of these categories.
+
+With five chapters, the first section on ``Infrastructures and
+Technologies'' takes up the largest space. Here, it becomes evident how
+much groundwork is still necessary for the humanities to be able to
+effectively apply graph and semantic web technologies. From Peter Boot
+and Marijn Koolen, describing several models of connecting RDF content
+to a TEI/XML document, to Hugh Cayless and Matteo Romanello, advocating
+for a resolution service for Text URIs, to Iian Neill and Desmond
+Schmidt as well as Miller C. Prosser and Sandra R. Schloen, proposing
+different editors and their underlying data models as graph-based tool
+solutions to working with textual data, the chapters present existing
+work but also gaps in the current technologies and services that need to
+be addressed to further develop a semantic web of textual data, and to
+incorporate these approaches into the realm of TEI/XML. These rather
+technical considerations are contextualized by Georg Vogeler's
+reflections on the epistemological consequences of the metaphors central
+to the technologies discussed, evoking important discussions about
+path-dependencies and the influence of widely adopted technology stacks
+on the emergence of data and knowledge cultures 
+(\cite{mahoney_historical_2006}; see also \cite{acker_data_2019}).
+
+The following section, ``Formal Models'', takes a step back to focus on
+the data models and ontologies forming the basis of the semantic web and
+graph-based editorial work. Hans Cools and Roberta Padlina give a
+comprehensive overview of ``the implementation and development of
+Semantic Web technology (SWT) within the ongoing project \emph{National
+Infrastructure for Editions}'' that should be a required reading for
+every scholar aiming to familiarize themselves with semantic web
+technologies and ontology engineering in the Arts and Humanities.
+Francesca Giovannetti's chapter leads the reader back to the question of
+how to integrate the TEI standard and graph-based technologies,
+proposing a data model to transfer a TEI module, in this case the
+critical apparatus, and its inherent logic into a serialization as a RDF
+knowledge graph to complement data marked up in XML.
+
+In the final section on ``Projects and Editions'', three use cases from
+widely different fields demonstrate the potentials and pitfalls of the
+approaches and models described so far. Burrows and co-authors, in a
+process similar to Giovannetti's proposed model, outline necessary
+prerequisites and challenges in transferring a module of the TEI into a
+graph structure. Münnich and Ahrend add the perspective of digital
+musicology to the collection, discussing graph-based approaches to the
+study of philological and music historical processes. Interestingly,
+they also include interpretative processes of scholarly argumentation
+expressed through the CRMinf model \parencite{stead_crminf_2015} into their
+considerations. Last but certainly not least, Sippl, Burghardt and Wolff
+demonstrate in detail the challenges of applying graph-based methods to
+a ``legacy'' project, integrating different data formats in different
+states of digitization and enhancing these digital sources with methods
+of natural language processes.
+
+Throughout the collection, it is noticeable that the demand for a more
+profound engagement with what Burrows and co-authors call the
+``relationship between TEI [\ldots] and the world of Linked Data,
+RDF, and ontologies'' (145) is motivated by a number of recurringly
+mentioned challenges or dissatisfactions with the current state of
+TEI/XML-based editorial practices.\footnote{For a discussion of a
+  broader range of what he calls ``myths and misconceptions'' about the
+  TEI, some of them also addressed in this collection, see also \cite{cummings_world_2019}.} Among those mentioned most frequently are the difficulties of
+dealing with overlapping annotations in XML; the need to represent
+textual works or information from multiple perspectives, be it several
+variants of a text as a whole, or individual elements adhering to
+various, potentially overlapping hierarchies; the potential of
+connecting editions with the greater context of the semantic web through
+the use of LOD and RDF; and the promise of introducing
+machine-interpretable semantics into textual data through ontologies to
+enable, for example, the analysis and querying of what Sippl and
+co-authors call ``higher-level relationships'' (198). As outlined above,
+the chapters indeed provide a plethora of solutions and approaches to
+these challenges, in the process identifying further research and
+development needs but also potentials of semantic scholarly digital
+editions.
+
+In doing so, it has to be noted that, thankfully, neither the editors
+nor the authors employ the fallacy of pitting XML and its technology
+stack against graph technologies; instead, as Georg Vogeler puts it,
+``The debate about the best technology stack {[}moves{]} towards a
+debate on the best method for a given combination'' of tasks (88).
+Several authors explicitly situate their contributions as complements to
+the current use of the TEI guidelines, filling gaps and extending the
+potentials of XML-encoded text editions --- for example, Münnich and
+Ahrend, who see RDF as ``another complementary perspective {[}that{]}
+adds a level of differentiation that goes beyond the expressiveness of
+XML'' (173). Still, in many aspects, the collection definitively leaves
+the document-centric realm of the TEI behind, opening up exciting new
+possibilities for editorial work as a connected, interlinked task
+creating and completing a web of knowledge in the best sense of Tim
+Berners-Lee's intentions.
+
+Published in 2021, it has been a few years since this collection was
+made available. In the meantime, work in the addressed research fields
+has certainly continued and advanced --- thanks to the contributing or
+cited authors, among others.\footnote{Representative of current
+  tendencies in graph technologies in the humanities is the programme of
+  GrapHNR 2023: a joint conference of the Historical Network Research
+  community and Graphs \& Networks in the Humanities (\citeyear{historical_network_research_and_graphs__networks_in_the_humanities_graphnr_2023}).} Yet, even in the fast-paced discipline
+of Digital Humanities, the collection still stands as a landmark in the
+exploration of graph-based digital scholarly editions. Many of the
+addressed gaps and potentials remain open questions, waiting to be
+answered. In the quest to address them, this collection will serve as a
+guide and a road map for many more years to come.
+
+\vspace{4em}
+
+\begin{flushleft}
+    % use smallcaps for author names
+    \renewcommand*{\mkbibnamefamily}[1]{\textsc{#1}}
+    \renewcommand*{\mkbibnamegiven}[1]{\textsc{#1}} 
+\printbibliography
+\end{flushleft}
+
+\end{review}
