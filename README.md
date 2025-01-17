@@ -6,7 +6,7 @@ This repository contains the LaTeX version of [Variants 17-18](https://journals.
 This version is purely regarded as a backup, a showcase of how _Variants_ issues are designed in LaTeX, and as a point of reference for formatting rules and special cases mentioned in the [varianTeX wiki](https://github.com/ESTS-Variants/varianTeX/wiki).
 It is not meant as an authoritative version of the issue's contents whatsoever.
 Some minor changes may have been made in a final proofreading round that have not been included in this repository.
-For an authoritative version of the contents of this issue, please refer to the journal's official website: [https://journals.openedition.org/variants/](https://journals.openedition.org/variants/).
+For an authoritative version of the contents of this issue, please refer to [the journal's official website](https://journals.openedition.org/variants/).
 There, the official versions of all essays, reviews, paratext, etc. in this issue are made freely available in HTML and downloadable PDF formats.
 
 **Please note that all images have been removed from the repository, for copyright reasons.** 
