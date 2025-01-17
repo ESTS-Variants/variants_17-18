@@ -1,28 +1,14 @@
-%%%%%%%%%%%%%%
-%% METADATA %%
-%%%%%%%%%%%%%%
+\documentclass{article}
+\include{variantex}
+\author{Jason Wiens}
+\title{The Alice Munro Papers: A Collective Genetic Approach}
 
 \contributor{
 % Add all authors
 Jason Wiens
 }
 
-\contribution{
-% Add full title
-The Alice Munro Papers: A Collective Genetic Approach
-}
-
-\shortcontributor{
-% short version of authors for running header
-Jason Wiens
-}
-
-\shortcontribution{
-% short version of title for running header
-The Alice Munro Papers: A Collective Genetic Approach
-}
-
-\begin{paper}
+\begin{document}
 \renewcommand*{\pagemark}{}
 
 \begin{abstract}
@@ -330,22 +316,15 @@ would lead to some of Munro's more apparently ``autobiographical''
 stories to be rejected or substantially edited. 
 
 Genetic research in the drafts of her story "The Progress of Love," for example, suggests that relatively late in the composition process, Munro changed the narrative perspective of the story from first to third person prior to its publication in \emph{The New Yorker} (October 7, 1985), and then changed it back when it was republished as the title story of her 1986 collection \emph{The Progress of Love}. Here are Munro's edits on one draft of the story's first paragraph, perhaps made at the recommendation of her editor at the magazine:
-\vspace{1em}
-\begin{figure}[H]
+
+\begin{figure}
     \centering
-    \tiny
-    \scalefont{1.2}
-\begin{tabular}{p{\textwidth}}
-        \text{\textsuperscript{Phemie's} \hspace{5em}\textsuperscript{her} \hspace{7em}\textsuperscript{her that her} \hspace{19em}\textsuperscript{Phemie's} \hspace{5em}\textsuperscript{she}}\\
-   		\text{\sout{My} father phoned \sout{me} at work to tell \sout{me that my} mother had died. This was not long after \sout{my} divorce, when \sout{I}}\\\vspace{1em}
-        \text{\hspace{8em}\textsuperscript{her}}\\
-        \text{finally had both of \sout{my} sons in school, and had started working in the real estate offic. \sout{[QA: something like this?]} It} \\\vspace{1em}
-        \text{was a hot enough day in September.}
-	\end{tabular}
-    \caption{Transcript from: \cite{munro_typescript_nodate}, \citetitle{munro_typescript_nodate}.}
+    \includegraphics[width=\textwidth]{media/wiens-ts.png}
+    \caption{Figure \ref{fig:wiens-ts}: Transcript from: \cite{munro_typescript_nodate}, \citetitle{munro_typescript_nodate}}
     \label{fig:wiens-ts}
 \end{figure}
-\vspace{1em}
+
+Typescript by Munro; transcription by the author.
 
 The shift to third person for the magazine publication, for instance, may have been prompted by a suggestion to further distance the narrator from the author. Although Munro's employment of free indirect discourse in the
 third-person narration of \emph{The New Yorker} version allows the
@@ -628,12 +607,15 @@ Moons of Jupiter'' or ``Providence'', are shown as having been revised
 significantly through external editorial interventions, but scholarship
 to date has to our knowledge not yet explored the significance of these
 interventions.
+
 \begin{figure}[t]
     \centering
-    \frame{\includegraphics[width=1\textwidth]{media/wiens3.png}}
-    \caption{Occurrences of revisions in Munro's stories. Data visualization created by John Brosz and Jagoda Walny, and reproduced with their permission.}
+    \includegraphics[width=1\textwidth]{media/wiens3.png}
+    \caption{Figure \ref{fig:wiens3}: Occurrences of revisions in Munro's stories.}
     \label{fig:wiens3}
 \end{figure}
+
+Data visualization created by John Brosz and Jagoda Walny, and reproduced with their permission.
 
 We also mapped both settings and geographical references in the set of
 stories (Fig. \ref{fig:wiens4}). Such visualizations perhaps reinforce what we
@@ -656,12 +638,15 @@ ones, such as Jubilee or Hanratty, it would not be difficult to modify
 the visualizations to distinguish between such locations and thus
 establish a ratio between the real and the invented in Munro's fictional
 worlds.
+
 \begin{figure}[t]
     \centering
-    \frame{\includegraphics[width=1\textwidth]{media/wiens4.png}}
-    \caption{Settings and geographical references in Munro's stories. Data visualization created by John Brosz and Jagoda Walny, and reproduced with their permission.}
+    \includegraphics[width=1\textwidth]{media/wiens4.png}
+    \caption{Figure \ref{fig:wiens4}: Settings and geographical references in Munro's stories.}
     \label{fig:wiens4}
 \end{figure}
+
+Data visualization created by John Brosz and Jagoda Walny, and reproduced with their permission.
 
 As noted above, we had hoped to visualize a determinative relationship
 between the editorial correspondence in the Munro papers and the drafts
@@ -695,10 +680,12 @@ centres that story and then re-constellates the other stories around it.
 
 \begin{figure}[t]
     \centering
-    \frame{\includegraphics[width=1\textwidth]{media/wiens5.png}}
-    \caption{The frequency in which a story is mentioned alongside Munro's ''Accident''. Data visualization created by John Brosz and Jagoda Walny, and reproduced with their permission.}
+    \includegraphics[width=1\textwidth]{media/wiens5.png}
+    \caption{Figure \ref{fig:wiens5}: The frequency in which a story is mentioned alongside Munro's ''Accident''.}
     \label{fig:wiens5}
 \end{figure}
+
+Data visualization created by John Brosz and Jagoda Walny, and reproduced with their permission.
 
 As noted above, researchers were initially recording the text of
 revisions in the spreadsheets, which we soon realized would have been
@@ -731,34 +718,23 @@ oeuvre and \emph{sous-ouevre}'' \citep[174]{van_hulle_genetic_2022}, something o
 towards and which could be part of its expansion in the future.
 
 
-\begin{figure}[t]
-    \tiny
-    \begin{lstlisting}[language=xml]    
-<p n="32">
-    <app loc="p32">
-        <lem>The train was filling up.</lem>
-        <rdg wit="#MsC_37_12_14">Frances had a window seat.</rdg>
-    </app>
-    <app loc="p32">
-        <lem>At Brantford a man asked if she would mind if he sat down beside her.</lem>
-        <rdg wit="#MsC_37_12_14">At Brantford, a man sat down beside her.</rdg>
-        <rdg wit="#MsC_37_12_15 #MsC_37_12_15">At Brantford, a man sat down beside me.</rdg>
-    </app>
-</p>
-<p n="33">
-        <lem>"It's cooler than you'd think," he said.</lem>
-</p>
-    \end{lstlisting}
-    \caption{Encoding for tracking revisions across drafts. Encoding by Hannah Anderson and James Robertson.}
-    \label{fig:wiens6}
-
-\vspace{2em}
-
+\begin{figure}
     \centering
-    \frame{\includegraphics[width=0.92\textwidth]{media/wiens7.png}}
-    \caption{A passage that has been revised. Screenshot of work by Hannah Anderson and James Robertson.}
+    \includegraphics[width=\textwidth]{media/wiens-xml.png}
+    \caption{Figure \ref{fig:wiens-6}: Encoding for tracking revisions across drafts.}
+    \label{fig:wiens-6}
+\end{figure}
+
+Quoted text by Munro; ncoding by Hannah Anderson and James Robertson.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.92\textwidth]{media/wiens7.png}
+    \caption{Figure \ref{fig:wiens7}: A passage that has been revised.}
     \label{fig:wiens7}
 \end{figure}
+
+Quoted text by Munro; screenshot of work by Hannah Anderson and James Robertson.
 
 
 
@@ -863,4 +839,4 @@ I would
 \printbibliography
 \end{flushleft}
 
-\end{paper}
+\end{document}

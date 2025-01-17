@@ -1,19 +1,15 @@
-% add Authors section as a \part in the ToC
-\addcontentsline{toc}{part}{Peer Reviewers}
-% use "authors" style for headers and footers
-\pagestyle{authors}
-% format "Authors" section as a new \chapter
-\chapter*{A Word of Thanks to Our Peer Reviewers}
-% pagenr at the bottom
-\protect\thispagestyle{chaptertitlepage}
+\documentclass{article}
+\include{variantex}
 
-% Short Bios of authors start here
-% Each author gets 1 \paragraph
-% Each \paragraph starts with author name
-% This author name is formatted as the \paragraph title to make it pop out more (bold and some space)
+\author{Wout Dillen, Elli Bleeker}
+
+\title{A Word of Thanks to our Peer Reviewers}
+
+\begin{document}
+\maketitle
 
 \section*{}
-The editors of \emph{Variants} would like to offer a special word of thanks to all the people who have volunteered their time to peer review the essays in this issue. Their invaluable efforts directly contribute to the high quality standards our Journal aims to uphold. They include:\footnote{All listed reviewers gave their consent to being mentioned in this list. Some names of peer reviewers may have been withheld on their request for privacy reasons.} 
+The editors of \emph{Variants} would like to offer a special word of thanks to all the people who have volunteered their time to peer review the essays in this issue. Their invaluable efforts directly contribute to the high quality standards our journal aims to provide. They include:\footnote{All listed reviewers gave their consent to being mentioned in this list. Some names of peer reviewers may have been withheld on their request for privacy reasons.} 
 
 \begin{itemize}
     \item \textbf{Mateusz Antoniuk} (Jagiellonian University in Cracow, Poland)
@@ -37,3 +33,6 @@ The editors of \emph{Variants} would like to offer a special word of thanks to a
     \item \textbf{Benedetta Zaccarello} Institut des Textes et Manuscrits Modernes [ITEM] CNRS/ENS, Paris, France)
     \item \textbf{Monica Zanardo} (Università degli Studi di Padova, Italy)
 \end{itemize}
+
+
+\end{document}
