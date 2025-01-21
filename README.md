@@ -1,4 +1,4 @@
-![Static Badge](https://img.shields.io/badge/doi-10.4000%2F130s1-blue?link=https%3A%2F%2Fdoi.org%2F10.4000%2F130s1)
+[![Static Badge](https://img.shields.io/badge/doi-10.4000%2F130s1-blue)](https://doi.org/10.4000/130s1)
 
 # Variants 17-18 | the repository
 
